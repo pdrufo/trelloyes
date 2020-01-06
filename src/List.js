@@ -8,7 +8,7 @@ export default function List(props) {
             <header className="List-header">
                 <h2>{props.header}</h2>
             </header>
-            <div class="List-cards">
+            <div className="List-cards">
                 {props.cards.map((card) =>
                 <Card 
                 key={card.id}
